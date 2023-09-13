@@ -1,0 +1,63 @@
+.registration-login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 850px;
+  height: 600px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+}
+
+.instructions {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+.wrapper {
+  width: min(900px, 100% - 3rem);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 850px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  font-weight: lighter;
+  grid-column-gap: 20px;
+}
+
+.wrapper .registration {
+  display: grid;
+  align-items: end;
+  justify-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  text-align: end;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wrapper .login {
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  text-align: start;
+  width: 100%;
+  border-collapse: collapse;
+}
+

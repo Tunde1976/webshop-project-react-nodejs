@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #eee;
+    font-size: 1.125rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+}
+
+.table-wrapper {
+    width: min(900px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #dbe4d5;
+}
+
+caption,
+th,
+td {
+    padding: 1rem;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+caption {
+    background: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+th {
+    background: whitesmoke;
+}
+
+/* tr:nth-of-type(2) {
+    background: hsl(0 0% 0% / 0.05)
+} */
+
+td.table-cells-resp img.del {
+    align-items: center;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+@media (max-width: 650px) {
+    th {
+        display: none;
+    }
+
+    td:nth-child(3) {
+    width: 15%;
+    margin-right: 0;
+    }
+
+    td:nth-child(4),
+    td:nth-child(5) 
+
+    /* td {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        vertical-align: baseline;
+        max-width: 25%;
+    } */
+
+    td .table-cells.bold {
+        font-weight: 700;
+        min-width: fit-content;
+    }
+
+    td {
+        /* Ez így jó??? */
+        
+        /* display: flex;
+        flex: row;
+        flex-wrap: nowrap;
+        width: 20%;
+    } */
+        display: grid;
+        column-gap: 5px;
+        width: 20%
+        }
+        
+
+
+    td:nth-of-type(2) {
+        font-weight: 700;
+    }
+
+    td:first-child {
+        display: none;
+    }
+
+    td:nth-child(2) {
+        padding-top: 2rem;
+    }
+
+    td:last-child {
+        padding-bottom: 2rem;
+    }
+
+    .table-container {
+        width: 100%;
+    }
+}

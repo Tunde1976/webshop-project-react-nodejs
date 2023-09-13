@@ -1,0 +1,54 @@
+.admin-dashboard--title {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.stat--container {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7rem;
+    
+}
+
+.stat--card {
+    display: flex;
+    width: 18rem;
+    height: 12rem;
+    background-color: #dbe4d5;
+    padding: 0.7rem;
+    position: relative;
+
+
+}
+
+.stat--count {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-left: 1.5rem;
+    color: rgb(88, 87, 87);
+    
+}
+
+.stat--title {
+    font-size: 2.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    color: rgb(88, 87, 87);
+}
+
+.stat--icon {
+    font-size: 7rem;
+    position: absolute;
+    top: -0.5rem;
+    right: -2.5rem;
+
+    
+    
+}
+.stat--icon svg path {
+    color: rgb(174, 178, 177);
+}

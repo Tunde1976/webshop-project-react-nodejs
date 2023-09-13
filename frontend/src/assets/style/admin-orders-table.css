@@ -1,0 +1,93 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    color: #eee;
+    font-size: 1.125rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+}
+
+.order-table-wrapper {
+    width: min(900px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #dbe4d5;
+}
+
+.order-table-caption,
+.ot-th,
+.ot-table-cells {
+    padding: 1.5rem;
+}
+
+.order-table-caption,
+.ot-th {
+    text-align: left;
+}
+
+.order-table-caption {
+    background: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ot-th {
+    background: whitesmoke;
+}
+
+/* .ot-tr:nth-of-type(2n) {
+    background: hsl(0 0% 0% / 0.05)
+} */
+
+@media (max-width: 480px) {
+    .order-table-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ot-th {
+        display: none;
+    }
+
+    .ot-cell {
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+
+    .ot-cell:first-child {
+        padding-top: 2rem;
+    }
+
+    .ot-cell:last-child {
+        padding-bottom: 1rem;
+    }
+
+    .ot-cell::before {
+        /* content: attr(ot-cell) ": "; */
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .ot-cell:nth-of-type(1)::before {
+        content: "Azonosító:";
+    }
+
+    .ot-cell:nth-of-type(2)::before {
+        content: "Dátum: ";
+    }
+
+    .ot-cell:nth-of-type(3)::before {
+        content: "Státusz: ";
+    }
+
+    .ot-cell:nth-of-type(4)::before {
+        content: "Részletek: ";
+    }
+}

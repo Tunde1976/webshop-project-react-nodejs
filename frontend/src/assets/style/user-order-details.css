@@ -1,0 +1,42 @@
+.user-order-details {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    min-width: 600px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    /* box-shadow: 0 0 20px #EEDDD3; */
+    background-color: #F8E8EE;
+    margin-bottom: 40px;
+}
+
+.user-order-details img {
+    height: 100px;
+}
+
+.order-h2 {
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 43%;
+    padding: 15px;
+    /* margin-bottom: 50px; */
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    background: white;
+    /* box-shadow: -8px 0 15px whitesmoke; */
+}
+
+section.user-orders-container {
+    display: flex;
+}
+
+section.user-orders-container > * {
+    flex: 1;
+}
+
+div.order-data {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

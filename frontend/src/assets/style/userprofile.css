@@ -1,0 +1,63 @@
+.user-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: left;
+    background-size: 2000px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.user-data-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 750px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.userprofile-h2 {
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 43%;
+    box-shadow: #3E312A;
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px #eeddd3;
+    font-weight: lighter;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.details-img-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: max-content;
+    margin-left: 12px;
+}
+
+.data-edit-link a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-weight: lighter;
+}
+
+.data-edit-link a:hover {
+    color: brown
+}

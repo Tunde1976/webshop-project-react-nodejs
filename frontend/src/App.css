@@ -1,0 +1,11 @@
+html, body {
+  box-sizing: border-box;
+
+}
+
+:root {
+  --first-color: #d9d9d9;
+  --second-color: #727272;
+  --third-color: #2c2e30;
+  --accent-color: #19978b;
+}

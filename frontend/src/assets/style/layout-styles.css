@@ -1,0 +1,19 @@
+.layout--main {
+    min-height: 60vh;
+}
+
+#toast-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    color: rgb(66, 52, 52);
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 0.35rem;
+}
+
+.active-nav {
+    border-bottom: 1px solid;
+}

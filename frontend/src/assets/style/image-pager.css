@@ -1,0 +1,150 @@
+/* *{
+    --transparent-grey: rgba(174, 174, 174, 0.7);
+    box-sizing: border-box;
+    margin: 0;
+
+} */
+.slideshow-container{
+    /* max-width: 1000px; 
+    height: 400px; */
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    margin: auto;
+}
+
+img {
+    position: relative;
+    object-fit: scale-down;
+    height:100%;
+    width:100%;
+    object-fit: scale-down;
+}
+
+.img-div {
+    height: 90vh;
+    background-color: antiquewhite;
+}
+
+.slideshow-container button {
+    background-color: var(--transparent-grey);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-weight: bold;
+    color: rgb(98, 37, 37);
+}
+
+.prev-btn {
+    top: 40%;
+    left: 1rem;
+    height: 15vh;
+    width: 2rem;
+    background-color: rgb(112, 45, 45);
+    color: white;
+    font-size: 1.4rem;
+
+}
+.next-btn {
+    right: 1rem;
+    top: 40%;
+    height: 15vh;
+    width: 2rem;
+    background-color: rgb(112, 45, 45);
+    color: white;
+    font-size: 1.4rem;
+    transition: 0.5 ease;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    box-shadow: 1px 3px 10px 10px rgb(215, 157, 157);
+}
+
+.text {
+    position: absolute;
+    /* bottom: 65px; */
+    left: 10%;
+    top: 10%;
+    /*background-color: var(--transparent-grey);*/
+    background-color:rgb(225, 231, 220);
+    padding: 10px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-two {
+    position: absolute;
+    /* bottom: 65px; */
+    right: 10%;
+    bottom: 10%;
+    background-color:rgb(225, 231, 220);
+    /*background-color: var(--transparent-grey);*/
+    padding: 10px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-svg {
+    width: 200px;
+}
+
+.dot-container{
+    display: flex;
+    gap: 10px;
+    /*
+    justify-content: center;
+    padding: 1rem; */
+    bottom: 1rem;
+    left: 50%;
+    position: absolute;
+    z-index: 5;
+}
+
+.dot-container .active{
+    background-color: rgb(118, 35, 35);
+}
+
+.circle {
+    width: 1rem;
+    height: 1rem;
+    border: 3px solid rgb(118, 35, 35);
+    border-radius: 50%;
+}
+
+.circle:hover {
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    background-color: rgb(225, 130, 130);
+
+}
+
+
+/* 
+.active {
+    text-decoration: underline
+} */
+
+@media screen and (max-width: 980px) {
+    .img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .img-div {
+        height: auto;
+    }
+    
+}
+
+

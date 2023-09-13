@@ -1,0 +1,74 @@
+.admintable {
+    border-collapse: collapse;
+    /* collapse: A szomszédos cellák keretei összevonásra kerülnek.*/
+    margin: 0 auto;
+    font-size: 0.9em;
+    min-width: 600px;
+    max-width: 65%;
+    border: 1px solid darkslategrey;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #b7d2a5;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 80px;
+    background-color: #dbe4d5;
+}
+
+.table-header {
+    /* background-color: whitesmoke; */
+    /* fejléc*/
+    color: #2A211C;
+    text-align: center;
+    /* font-weight: bold; */
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+.table-header-cells, .table-cells {
+    padding: 12px 15px;
+    width: 100px;
+    /* text-align: left; */
+}
+
+.admintable .table-body .table-row {
+    border-bottom: 1px solid #dbe4d5;
+    /* elválasztó vonalak soroknál*/
+    padding: 20px 20px;
+}
+
+.admintable .table-body .table-row:hover {
+    background-color: #90A17D;
+}
+
+.admintable .table-body .table-row:last-of-type {
+    /* alsó színes sáv táblázat alján*/
+    border-bottom: 5px solid #dbe4d5;
+}
+
+.admin-button {
+    padding: 20px;
+    border: none;
+}
+
+.admin-link {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.adminprodlist-h2 {
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 43%;
+    box-shadow: #3E312A;
+    padding: 15px;
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px #96b97f;
+    font-weight: lighter;
+}
+
+.admintable-outer-container {
+    overflow-x: auto;
+}

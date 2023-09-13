@@ -1,0 +1,215 @@
+.add-product {
+    padding: 40px;
+    /* background-image: url('../pictures/pinks-horizontal.jpeg'); */
+    background-color: antiquewhite;
+    background-position: right;
+    background-size: 1000px;
+    margin-bottom: 60px;
+    margin-top: -50px;
+    /* height: 500px; */
+}
+
+.admin-add-products-h2 {
+    padding: 8px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px pink;
+    font-weight: lighter;
+    
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #3E312A;
+    gap: 1.5rem;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #F6EDE8;
+    box-shadow: 0 0 20px #eeddd3;
+    font-weight: lighter;
+    width: 800px;
+    /* height: 350px; */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.product-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inside-box {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    height: auto;
+}
+
+/* .add-product label {
+    font-size: 17px;
+    margin-left: -55px;
+} */
+
+.add-product-container {
+    background-color: #DBE4D5;
+    padding: 1rem ;
+    text-align: right;
+}
+
+.add-product input,
+.add-product textarea {
+    padding: 0.8rem;
+    /* line-height: 2rem; */
+    /* margin-top: -24px; */
+    /* height: 30px; */
+    font-size: 1.5rem;
+    /* border: 1px solid #F1E4DD; */
+    border-radius: 5px;
+    border-color: #865338;
+    margin-left: 48px;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    color: #3E312A;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.category-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ;
+}
+
+.category-select li {
+    flex: 1;
+    justify-content: flex-start;
+    ;
+}
+
+.checkbox-label {
+    font-family: system-ui, sans-serif;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 3rem;
+
+} 
+
+.checkbox-label + .checkbox-label {
+    margin-top: 1em;
+  }
+
+  input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: rgb(132, 87, 87);
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.08em solid rgb(159, 99, 99);
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: rgb(159, 99, 99);
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+
+.add-product-btn {
+    /* margin-top: 185px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 3rem; */
+    height: 50px;
+    width: 220px;
+    border: 1px solid;
+    background-color: rgb(114, 114, 59);
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 20px;
+    cursor: pointer;
+    outline: none;
+    border-color: #cec6c2;
+    padding: 10px 10px;
+}
+
+.add-product-btn:hover {
+    border-color: white;
+    transition: .5s;
+}
+
+.add-product input#id[type=file] {
+    font-family: 'Oswald', sans-serif;
+    color: #3E312A;
+    font-size: 14px;
+}
+
+input#id {
+    margin-top: 30px;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: 1 px solid #F1E4DD;
+    border-radius: 5px;
+    border-color: #F1E4DD;
+    margin-left: 48px;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+}
+
+tr.admin-product-del-tr button.add-product-btn {
+    margin-left: 55px;
+}
+
+
+

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #eee;
+    font-size: 1.125rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+}
+
+.admin-table-wrapper {
+    width: min(900px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+.admin-table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table#admin-product-edit {
+    width: 100%;
+    border-collapse: collapse;
+    background: #DBE4D5;
+}
+
+.admin-order-edit-tr button {
+    margin-top: -23px;
+}
+
+.admin-order-del-tr button {
+    margin-left: 0px;
+    width: 100px;
+}
+
+.admin-order-edit-tr {
+    height: 80px;
+}
+
+.admin-order-details {
+    
+}
+

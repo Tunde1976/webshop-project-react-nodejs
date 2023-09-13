@@ -1,0 +1,157 @@
+.admin-add-categories-h2 {
+    padding: 8px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px #96b97f;
+    font-weight: lighter;
+}
+
+.add-categories {
+    background-position: right;
+    background-size: 1000px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    margin-top:-50px;
+}
+
+.add-categories-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid darkslategrey;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px #96b97f;
+    font-weight: lighter;
+    width: 800px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cat-button {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 7rem;
+    height: 50px;
+    width: 220px;
+    border: 1px solid;
+    background: #FAF6F4;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #3E312A;
+    font-weight: 20px;
+    cursor: pointer;
+    outline: none;
+    border-color: #cec6c2;
+    font-family: 'Poppins', sans-serif;
+    padding:10px 10px;
+}
+
+.cat-button:hover {
+    border-color: white;
+    transition: .5s;
+}
+
+.add-categories input {
+    padding: 0 25px;
+    height: 30px;
+    width: 13.8rem;
+    font-size: 16px;
+    border: 1 px solid #F1E4DD;
+    border-radius: 5px;
+    border-color: #F1E4DD;
+    margin-left: 1.4rem;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+/* Nem működik.
+.add-categories input:focus {
+    border: 2px solid #F2BED1;    
+} */
+
+.add-categories input[type=text] {
+    font-family: 'Oswald', sans-serif;
+    color: #3E312A;
+    font-size: 14px;
+
+}
+
+/* .name {
+text-align: left;
+} */
+
+td.admin-cat-edit-td {
+    padding: 1rem;
+}
+
+td.admin-cat-del-td {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+tr.admin-cat-del-tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+.admin-cat-del-tr {
+    height: 70px;
+}
+
+.admin-edit-cat-btn,
+.admin-cancel-cat-btn,
+.admin-del-catdel-btn,
+.admin-cancel-catdel-btn {
+    height: 50px;
+    width: 223px;
+    border: 1px solid;
+    background: #FAF6F4;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #3E312A;
+    font-weight: 20px;
+    cursor: pointer;
+    outline: none;
+    border-color: #cec6c2;
+    padding: 10px 10px;
+}
+
+.admin-cat-edit-tr button {
+    margin-top: -23px;
+    margin-left: 250px;
+}
+
+.admin-cat-del-tr button {
+    margin-left: 0px;
+    width: 100px;
+}
+
+.admin-edit-cat-btn {
+    margin-left: 3rem;
+}
+
+.admin-edit-cat-btn:hover,
+.admin-cancel-cat-btn:hover,
+.admin-del-catdel-btn:hover,
+.admin-cancel-catdel-btn:hover {
+    border-color: white;
+    transition: .5s;
+}
+
+.admin-cat-edit-tr {
+    height: 70px;
+}

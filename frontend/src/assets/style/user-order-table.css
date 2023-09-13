@@ -1,0 +1,59 @@
+.user-order-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    min-width: 600px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-shadow: 0 0 20px #EEDDD3;
+    background-color: #F8E8EE;
+    margin-bottom: 40px;
+}
+
+.user-order-table th {
+    background-color: #F9F5F6;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    width: 250px;
+    border-bottom: 1px solid #F2BED1;
+    color: #3E312A;
+    font-weight: lighter;
+}
+
+.user-order-table td.table-cells {
+    background-color: #F8E8EE;
+    padding: 20px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.user-order-table tr {
+    /* border-bottom: 1px solid #F2BED1; */
+    border-bottom: 1px solid white;
+    padding: 30px 30px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: baseline;
+    width: 250px;
+}
+
+.order-h2 {
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 43%;
+    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Oswald", sans-serif;
+    background: white;
+    box-shadow: -8px 0 15px whitesmoke;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+#total-amount-order {
+    width: 100%;
+}

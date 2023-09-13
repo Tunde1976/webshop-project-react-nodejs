@@ -1,0 +1,76 @@
+.orderForm--container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: #F8E8EE;
+    
+}
+.orderForm--fields,
+.orderForm--fields-shipping-address,
+.orderForm--fields-shipping-address-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button#order-confirm:disabled {
+    background-color: grey;
+    cursor: no-drop;
+}
+
+/* button#order-confirm {
+    background-color: rgb(230, 175, 148);
+} */
+
+button#order-confirm {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 220px;
+    border: 1px solid;
+    background: #F9F5F6;
+    font-size: 16px;
+    color: #3E312A;
+    font-weight: 10px;
+    cursor: pointer;
+    outline: none;
+    border-color: #F2BED1;
+}
+
+button#order-confirm:hover {
+    border-color: white;
+    transition: 0.5s;
+}
+
+.order-h2 {
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 43%;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Oswald", sans-serif;
+    background: white;
+}
+
+.order-h2,
+.orderForm--container {
+    width: min(900px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+.orderForm--container {
+    border-collapse: collapse;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.orderForm--fields,
+.orderForm--fields-shipping-address {
+width: 60%;
+}
+
